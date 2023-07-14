@@ -55,7 +55,7 @@ for(let i = 0; i < 7; i++){
 totalAcres += (fujiAcres[i] + galaAcres[i] + pinkAcres[i])
 }
 console.log(totalAcres)
-
+//Here i needed the total number of acres so i made a for loop to add all the values in the array together and set that equal to totalAcres than i console logged it
 
 // PROBLEM 2
 
@@ -73,7 +73,7 @@ console.log(totalAcres)
 let averageDailyAcres = totalAcres/ fujiAcres.length
 console.log(averageDailyAcres)
 
-
+//This was simple I just needed the average which is totalacres divided by how many days it took to harvest them and than I console logged the answer
 
 
 // PROBLEM 3
@@ -113,7 +113,7 @@ while (acresLeft > 0){
     acresLeft -= averageDailyAcres
     days += 1
 }console.log(days)
-
+// Here it was fairly simple where i needed to make a while loop as long as there were acres left to be harvested so i made that. Than i needed to account for the fact that each day the acres would go down by the average daily acres so i made acres left = itself subracted by daily harvest. Also each time that happens days needs to increase by 1 so inside the while loop I did days =+ 1
 
 // PROBLEM 4
 
@@ -143,7 +143,7 @@ while (acresLeft > 0){
 let eachAcre = 6.5
 let fujiTons = fujiAcres.slice()
 for (let i = 0; i < 7; i++){
-    eachAcre *= fujiTons[i] = fujiTons
+    eachAcre *= fujiTons[i]
 
 }
 // let galaTons =
