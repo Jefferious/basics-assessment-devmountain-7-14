@@ -172,12 +172,13 @@ console.log(fujiTons)
 
 // CODE HERE 
 
-// let fujiPounds =
-// let galaPounds =
-// let pinkPounds =
+let fujiPounds = fujiTons*2000
+let galaPounds = galaTons*2000
+let pinkPounds = pinkTons*2000
 
-
-
+console.log(fujiPounds)
+console.log(galaPounds)
+console.log(pinkPounds)
 
 
 
@@ -219,3 +220,6 @@ console.log(fujiTons)
 */
 
 // CODE HERE
+let totalProfit = 0
+totalProfit = (pinkProfit + galaProfit + fujiProfit)
+console.log(totalProfit)
